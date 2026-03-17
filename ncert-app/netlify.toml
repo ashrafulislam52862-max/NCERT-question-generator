@@ -1,7 +1,8 @@
 [build]
+  base = "ncert-app"
   command = "npm run build"
-  publish = "dist"
-  functions = "netlify/functions"
+  publish = "ncert-app/dist"
+  functions = "ncert-app/netlify/functions"
 
 [[redirects]]
   from = "/api/*"
